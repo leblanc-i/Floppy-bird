@@ -7,9 +7,9 @@ img.src = "./media/flappy-bird-set.png";
 // Parametre generaux
 let gamePlaying = false; // Si on est pas entrain de jouer
 const gravity = .5; // La gravité de l'oiseau
-const speed = 6.2; // La vitesse du jeu
+const speed = 3.8; // La vitesse du jeu
 const size = [51, 36]; // La taille de l'oiseau largeur et hauteur
-const jump = -10; // Le saut de l'oiseau
+const jump = -9; // Le saut de l'oiseau
 const cTenth = (canvas.width / 10); // 1/10 de la largeur du canvas
 
 // Parametre des poteaux
